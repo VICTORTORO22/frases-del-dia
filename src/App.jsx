@@ -22,8 +22,8 @@ function App() {
     boxShadow: '10px 7px 20px rgba(0, 0, 255, 0.5)',
     
   }
-  const objStylesTitle ={
-    WebkitTextStroke: '1px white', color: 'transparent',
+  const objStylesTitle ={ 
+    WebkitTextStroke: '1px white', color: 'transparent ',
     boxShadow: '10px 7px 20px rgba(0, 0, 255, 0.5)'
   }
 
