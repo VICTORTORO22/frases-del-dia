@@ -1,9 +1,8 @@
 
 
-const Phrase = ({phraseSelected}) => {
+const Phrase = ({ phraseSelected, phraseSelectedAuthor }) => {
   return (
-    <p className="text-xl font-bold text-black font-serif ">{phraseSelected.phrase} <p className="text-sm italic text-black ">-{phraseSelected.author}</p></p>
-    
+    <p className="text-xl font-bold text-black font-serif ">{phraseSelected.phrase} <br /> <br /> -{phraseSelected.author} </p>
   )
 }
 

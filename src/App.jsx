@@ -36,6 +36,7 @@ function App() {
       
         <Phrase 
           phraseSelected={phraseSelected}
+          phraseSelectedAuthor={phraseSelected}
         />
 
         <BtnPhrase
